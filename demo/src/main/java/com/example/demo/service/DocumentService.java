@@ -17,8 +17,8 @@ import java.util.List;
 @Service
 public class DocumentService {
     private static final String COLLECTION_NAME = "limited";
-    private static final AccountInfo accountInfo = new AccountInfo("username1","password1",123);
-    private static final AccountInfo accountInfo2 = new AccountInfo("username2","password2",123);
+    private static final AccountInfo accountInfo = new AccountInfo("username1","password1","123");
+    private static final AccountInfo accountInfo2 = new AccountInfo("username2","password2","123");
     private static final User user = new User("1","user1 ", Gender.FEMALE, 11,accountInfo);
     private static final User user2 = new User("2","user2 ", Gender.MALE, 18,accountInfo2);
 

@@ -11,9 +11,9 @@ public class AccountInfo {
 
     private String username;
     private String password;
-    private Integer mobileNumber;
+    private String mobileNumber;
 
-    public AccountInfo(String username, String password, Integer mobileNumber) {
+    public AccountInfo(String username, String password, String mobileNumber) {
         this.username = username;
         this.password = password;
         this.mobileNumber = mobileNumber;
