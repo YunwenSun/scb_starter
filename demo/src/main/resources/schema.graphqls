@@ -1,0 +1,17 @@
+type Query{
+    userById(id:ID): User
+}
+
+type User{
+    id:ID
+    name:String
+    age:Int
+    gender:enum
+    accountInfo: AccountInfo
+}
+
+type AccountInfo{
+    username = String;
+    password = String;
+    mobileNumber = String;
+}
