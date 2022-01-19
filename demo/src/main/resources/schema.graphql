@@ -6,12 +6,18 @@ type User{
     id:ID
     name:String
     age:Int
-    gender:enum
+    gender: Gender
     accountInfo: AccountInfo
 }
 
 type AccountInfo{
-    username = String;
-    password = String;
-    mobileNumber = String;
+    id:ID
+    username : String
+    password : String
+    mobileNumber : String
+}
+
+enum Gender{
+    MALE
+    FEMALE
 }
